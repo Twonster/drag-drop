@@ -1,9 +1,11 @@
+body {
+    position: relative;
+}
 .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    position: relative;
 }
 
 .item {
@@ -23,4 +25,15 @@
 .input-section {
     display: flex;
     justify-content: center;
+}
+
+.clone {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: rgb(215, 250, 236);
+    opacity: 0.5;
+    position: absolute;
 }
